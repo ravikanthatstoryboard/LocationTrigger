@@ -1,0 +1,11 @@
+framework module LocationTrigger {
+  umbrella header "LocationTrigger.h"
+
+  export *
+  module * { export * }
+}
+
+module LocationTrigger.Swift {
+    header "LocationTrigger-Swift.h"
+    requires objc
+}
